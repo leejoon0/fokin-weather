@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export default function Weather ({temp}){
     return (
-        <View styles={styles.container}>
+        <View style={styles.container}>
             <Text>{temp}</Text>
         </View>
     );
